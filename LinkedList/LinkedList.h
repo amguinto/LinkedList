@@ -1,3 +1,7 @@
+/*
+Andy Matthew Guinto
+*/
+
 class LinkedList {
 
 protected:

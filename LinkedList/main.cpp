@@ -1,3 +1,7 @@
+/*
+Andy Matthew Guinto
+*/
+
 #include "LinkedList.h"
 #include <iostream>
 #include <cstdlib>
