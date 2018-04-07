@@ -10,13 +10,11 @@ using namespace std;
 
 int main() {
 
-	//vector<int> list = { 1, 5, 2, 8, 3 };
+	vector<int> list = { 1, 5, 2, 8, 3 };
 	LinkedList ll;
 
-	//Call AddNode Constructor.
-	AddNode a;
-	
-	a.Add(5);
+	ll.AddNode(5);
+	ll.AddNode(6);
 
 	return 0;
 }
