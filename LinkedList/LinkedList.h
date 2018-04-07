@@ -21,4 +21,5 @@ public:
 
 	void AddNode(int data);
 	void DelNode(int data);
+	void PrintTraversal();
 };
