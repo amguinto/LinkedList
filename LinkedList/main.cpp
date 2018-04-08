@@ -10,7 +10,6 @@ using namespace std;
 
 int main() {
 
-	/*vector<int> list = { 1, 5, 2, 8, 3 };*/
 	LinkedList ll;
 
 	ll.AddNode(1);
@@ -22,6 +21,11 @@ int main() {
 	ll.PrintTraversal();
 	
 	ll.FindMiddle();
+
+	ll.DelNode(1);
+	ll.DelNode(6);
+
+	ll.PrintTraversal();
 
 	cout << endl;
 

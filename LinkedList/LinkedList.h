@@ -24,4 +24,5 @@ public:
 	void DelNode(int data);
 	void PrintTraversal();
 	void FindMiddle();
+	void MergeSort();
 };
