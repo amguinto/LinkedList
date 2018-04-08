@@ -15,6 +15,7 @@ protected:
 	Node* head;
 	Node* tail;
 	Node* current;
+	int counter = 1;
 public:
 	LinkedList();
 	~LinkedList();
@@ -22,4 +23,5 @@ public:
 	void AddNode(int data);
 	void DelNode(int data);
 	void PrintTraversal();
+	void FindMiddle();
 };
