@@ -25,4 +25,5 @@ public:
 	void PrintTraversal();
 	void FindMiddle();
 	void MergeSort();
+	void RemoveDuplicates();
 };
